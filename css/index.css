@@ -1,0 +1,315 @@
+
+
+/*navbar*/
+.NavBar {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #CAAC84;
+}
+
+.TitleLink {
+    flex: 1;
+    margin: 1rem 1rem;
+}
+
+.TitleLink a {
+    text-decoration: none;
+    font-family: girly;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 900;
+}
+
+.MenuLinks {
+    display: flex;
+    gap: 1rem;
+
+    margin: 1rem 2rem;
+
+    font-family: montserrat;
+
+}
+
+.MenuLinks a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.MenuLinks a:hover {
+    background-color: #d4bc9c;
+    transition: 0.5s;
+
+}
+
+
+/*mainpage*/
+
+.InnerDiv1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+    background-image: url(/assets/img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MainTitle {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0rem 2rem;
+    gap: 1rem;
+
+
+}
+
+    .TitleText > h1 {
+        border-radius: 10px 0 0 0;
+        padding: 1rem 0 0 0;
+        font-size: 3rem;
+        font-family: girly;
+    }
+    .TitleText > h2 {
+        border-radius: 0 0 10px 0;
+        padding: 1rem 0 1rem 0;
+        font-size: 1rem;
+        font-family: montserrat;
+        letter-spacing: 1px;
+
+
+    }
+
+    .imgShow img {
+        margin: 5rem auto 5rem auto;
+        align-self: center;
+        width: 100%;
+        border-radius: 50%;
+        transition: 0.5s;
+
+    }
+
+    .imgShow img:hover {
+        transition: 0.5s;
+    }
+
+    .TitleText {
+        flex: 1;
+        text-align: center;
+    }
+
+    .LinkForPromo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 2rem auto 0 auto;
+        gap: 1rem;
+    }
+
+    .LinkForPromo a {
+        font-size: 1.5rem;
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: black;
+        text-decoration: none;
+        font-family: girly;
+
+        transition: 0.5s;
+
+        padding: 0.5rem;
+        background-color: #CAAC84;
+        border-radius: 20px;
+    }
+
+    .LinkForPromo a:hover {
+        background-color: #d4bc9c;
+
+        transition: 0.5s;
+    }
+
+/*secondpage*/
+
+.InnerDiv2 {
+    background-color: #FFCEEC;
+}
+
+.AboutTitle {
+    margin: 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #CAAC84;
+    border-radius: 10px;
+}
+
+    .AboutTitle h4 {
+        font-family: girly;
+        font-size: 2rem;
+    }
+
+    .AboutTitle p {
+        font-family: montserrat;
+        font-size: 1.2rem;
+    }
+
+
+/*thirdpage*/
+
+
+.OfferTab {
+    margin: 0rem 0 15rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+    .OfferTab h4 {
+        font-family: girly;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .OfferList {
+        margin: 0 auto;
+        display: grid;
+        flex-wrap: wrap;
+        width: 80%;
+        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+        .OfferList li {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            text-align: center;
+
+        }
+
+        .OfferList li > p {
+            font-family: montserrat;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+
+        .OfferList li > img {
+            border-radius: 100%;
+            border-style: solid;
+            border-color: #CAAC84;
+            border-width: 2px;
+            height: auto;
+            width: 100%;
+            aspect-ratio: 1/1;
+        }
+
+
+/*fourthpage*/
+
+.PromoTab {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.PromoTab h4 {
+    font-family: girly;
+    font-size: 1.8rem;
+    text-align: center;
+    align-self: center;
+    padding: 1rem 2rem;
+    background-color: #EBE3D6;
+    border-radius: 10px;
+}
+
+    .PromoPics img {
+        border: 2px solid #CAAC84;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+
+/*lastpage*/
+
+.ContactUs {
+    margin: 2rem 0 0 0;
+    padding: 2rem 0;
+    background-color: #CAAC84;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+
+.ContactUs h4 {
+    text-align: center;
+    font-family: girly;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.ContactUs li {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ContactUs li > p {
+    text-align: center;
+    font-family: montserrat;
+    letter-spacing: 2px;
+}
+
+.ContactUs li > a {
+    font-family: montserrat;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.ContactUs li > a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.sociallinks > img {
+    height: auto;
+    width: 50px;
+}
+
+
+
+

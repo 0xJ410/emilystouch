@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+
+@font-face {
+    font-family: girly;
+    src: url(/assets/fonts/girly.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/montserrat.ttf);
+}
+
+
+/* animation_delays */
+
+.d0-5s {
+    animation-delay: 0.5s;
+     -o-animation-delay: 0.5s;
+ }
+ 
+
+.d1-5s {
+   animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+}
+
+.d2-5s {
+    animation-delay: 2.5s;
+    -o-animation-delay: 2.5s;
+}
+
+.d3-5s {
+   animation-delay: 3.5s;
+    -o-animation-delay: 3.5s;
+}
+
+.d4-5s {
+   animation-delay: 4.5s;
+    -o-animation-delay: 4.5s;
+}
+
+.d5-5s {
+   animation-delay: 5.5s;
+    -o-animation-delay: 5.5s;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .TitleLink a {
+        margin: 1rem 3rem;
+    }
+
+    .MenuLinks {
+        margin: 1rem 3rem;
+    }
+
+
+    .MainTitle {
+        flex-direction: row;
+        padding: 5rem 5rem 5rem 5rem;
+        align-items: center;
+    }
+
+    .TitleText > h1 {
+        font-size: 5rem;
+    }
+    .TitleText > h2 {
+        font-size: 1rem;
+
+
+
+    }
+
+    
+    .imgShow img {
+        margin: 0 auto;
+        align-self: center;
+        width: 80%;
+        border-radius: 50%;
+        transition: 0.5s;
+
+    }
+    
+    .LinkForPromo a {
+        font-size: 2rem;
+    }
+
+    .TitleText {
+        flex: 1;
+    }
+
+
+    .AboutTitle {
+        margin: 10rem;
+    }
+
+    .AboutTitle h4 {
+        font-size: 3rem;
+    }
+
+    .AboutTitle p {
+        font-size: 1.5rem;
+    }
+
+    .OfferTab {
+        margin: 12rem;
+
+    }
+
+        .OfferTab h4 {
+            font-size: 3rem;
+        }
+
+        .OfferList {
+            grid-template-rows: repeat(auto-fill, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    .PromoTab {
+        margin: 10rem;
+    }
+
+        .PromoTab h4 {
+            font-size: 3rem;
+        }
+
+        .PromoPics {
+            display: flex;
+            justify-content: center;
+        }
+
+        .PromoTab img {
+            margin: 0 auto;
+            width: 80%;
+        }
+
+
+    .ContactUs {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContactUs ul {
+        flex: 1;
+    }
+
+    .ContactUs h4 {
+        font-size: 1.5rem;
+    }
+
+    .ContactUs li > p, .ContactUs li > a {
+        font-size: 1rem;
+    }
+
+    
+
+
+
+}
