@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/other.css">
     
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -16,15 +22,15 @@
         <div class="OuterDiv">
             <div class="InnerDiv">
                 <div class="NavBar">
-                    <a class="GoBackLink" href="/index.html">Go back to homepage</a>
+                    <a class="GoBackLink animate__animated animate__fadeInLeft" href="/index.html">Go back to homepage</a>
                 </div>
                 <div class="DateSection">
-                    <h2 class="BookTitle">
+                    <h2 class="BookTitle animate__animated animate__fadeInUp d0-5s">
                         Book Now!
                     </h2>
-                    <p class="BookDesc">Please pick the date you want and click the button below!</p>
-                    <input class="DateDate" type="datetime-local" name="bookingDate" id="bookingDate">
-                    <button class="ButtonDate" type="submit" name="bookingDate" id="bookingDate">Book Now!</button>
+                    <p class="BookDesc animate__animated animate__fadeInUp animate__delay-1s">Please pick the date you want and click the button below!</p>
+                    <input class="DateDate animate__animated animate__fadeIn animate__delay-2s" type="datetime-local" name="bookingDate" id="bookingDate">
+                    <button class="ButtonDate animate__animated animate__fadeInUp animate__delay-3s" type="submit" name="bookingDate" id="bookingDate">Book Now!</button>
                 </div>
                 
             </div>
@@ -32,5 +38,10 @@
 
     </section>
     
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
